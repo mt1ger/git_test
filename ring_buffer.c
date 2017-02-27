@@ -1,3 +1,4 @@
+#include "ring_buffer.h"
 #include <stdio.h>
 
 int QUEUE_EMPTY (char * queue)
@@ -14,7 +15,7 @@ int QUEUE_FULL (char * queue)
 	else return 0;
 }
 
-void ENQUEUE (char * queue,char x)
+void ENQUEUE (char * queue, char x)
 {
 	if (QUEUE_FULL (queue))
 		perror ("overflow");

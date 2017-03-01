@@ -18,7 +18,7 @@ int QUEUE_FULL (char * queue)
 void ENQUEUE (char * queue, char x)
 {
 	if (QUEUE_FULL (queue))
-		perror ("overflow");
+		perror ("overflow \n");
 	else
 	{
 		queue [q_tail] = x;
@@ -32,7 +32,7 @@ int DEQUEUE (char * queue)
 {
 	char x;
 	if (QUEUE_EMPTY (queue))
-			perror ("underflow");
+			perror ("underflow \n");
 	else
 	{
 		x = queue [q_head];

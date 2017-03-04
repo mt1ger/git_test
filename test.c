@@ -28,7 +28,7 @@ int FileSIze_finder (char * File_Path)
 	//Get file length
 	fseek (Data_File, 0, SEEK_END);
 	unsigned long filelength = ftell(Data_File);
-	printf ("File size: %ld bytes\n",filelength );
+	printf ("File size: %ld bytes\n", filelength );
 	//fseek(Data_File, 0, SEEK_SET);
 
   	return filelength;

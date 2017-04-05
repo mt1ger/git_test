@@ -32,12 +32,12 @@ int DEQUEUE (char * queue)
 {
 	char x;
 	if (QUEUE_EMPTY (queue))
-			perror ("underflow \n");
+		perror ("underflow \n");
 	else
 	{
 		x = queue [q_head];
 		if (q_head == q_length)
-				q_head = 1;
+			q_head = 1;
 		else q_head = q_head + 1;
 		return x;
 	}

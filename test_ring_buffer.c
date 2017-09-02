@@ -4,3 +4,7 @@ int main ()
 {
 	int a;
 }
+
+sldfhlasdfhlsdhf
+:w
+

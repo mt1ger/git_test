@@ -5,3 +5,6 @@ int DEQUEUE (char * queue);
 
 int q_head, q_tail, q_length;
 
+wsklhflhs
+:w
+sidhfishf
